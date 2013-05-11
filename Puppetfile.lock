@@ -69,6 +69,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (2.0.6)
+
+GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
@@ -95,4 +100,5 @@ DEPENDENCIES
   ruby (= 4.1.0)
   stdlib (= 4.0.2)
   sudo (= 1.0.0)
+  vagrant (= 2.0.6)
 

@@ -58,6 +58,7 @@ node default {
   include mysql
 
   include hipchat
+  include vagrant
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
