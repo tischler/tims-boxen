@@ -56,6 +56,7 @@ node default {
   include nginx
   include java
   include mysql
+  include mongodb
 
   include hipchat
   include vagrant
